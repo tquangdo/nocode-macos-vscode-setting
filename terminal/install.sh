@@ -1,5 +1,8 @@
 which python3    
 # /usr/local/bin/python3
+### nodejs
+brew install node
+# Warning: node 17.7.1 is already installed and up-to-date.
 which node
 # /usr/local/bin/node
 # if ERR: https://stackoverflow.com/questions/31691626/cant-brew-install-node
