@@ -6,6 +6,6 @@ cat ~/.zshenv
 source ~/.zshenv
 # with "bash" terminal
 cat ~/.bash_profile 
-# => export PATH=~/.composer/vendor/bin:$PATH
+# => export PATH=~/.composer/vendor/bin:$PATH # for autorun "laravel"
 # => export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 source ~/.bash_profile
