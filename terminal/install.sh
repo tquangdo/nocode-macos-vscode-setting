@@ -21,6 +21,19 @@ which terraform
 terraform -version    
 # Terraform v1.1.7 on darwin_amd64
 
+### maven
+# 1/ install
+brew install maven
+# 2/
+which mvn # /usr/local/bin/mvn
+mvn --version
+=>
+Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
+Maven home: /usr/local/Cellar/maven/3.8.5/libexec
+Java version: 17.0.2, vendor: Homebrew, runtime: /usr/local/Cellar/openjdk/17.0.2/libexec/openjdk.jdk/Contents/Home
+Default locale: ja_JP, platform encoding: UTF-8
+OS name: "mac os x", version: "12.1", arch: "x86_64", family: "mac" 
+
 ### aws-cli
 # 1/ install
 # https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#:~:text=Linux-,macOS,-Windows
