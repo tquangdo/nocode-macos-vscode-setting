@@ -36,3 +36,17 @@
     - make color for terminal, customize zsh cmd...: `cat ~/.zshrc` -> `terminal/.zshrc`
 1. ### others
     - delete MACOSX in "file.zip": `zip -d file.zip __MACOSX/\*`
+    - check port 5000:
+    ```shell
+    lsof -i tcp:5000
+    =>
+    COMMAND     PID       USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+    ControlCe 23203 NC00011462   16u  IPv4 0xb0b1a2b35fd40ca9      0t0  TCP *:commplex-main (LISTEN)
+    ```
+    - OR
+    ```shell
+    netstat -vanp tcp | grep 5000
+    =>
+    tcp6       0      0  *.5000                 *.*                    LISTEN      131072 131072  23203      0 0x0100 0x00000006
+    tcp4       0      0  *.5000                 *.*                    LISTEN      131072 131072  23203      0 0x0100 0x00000006
+    ```
