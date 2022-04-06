@@ -30,6 +30,8 @@
     - delete tam thoi/vinh vien: `cmd (+ alt) + del`
     - empty recycle bin: `cmd + shift + del`
     - focus on chrome's URL: `cmd + L`
+    - crop image in "Preview": `cmd + K`
+    - show info file in "Finder": `cmd + I`
 1. ### terminal
     - list type of terminal: `cat /etc/shells` -> `terminal/etc_shells.sh`
     - check what type of terminal is default: `echo $SHELL` -> `/bin/zsh`
