@@ -18,6 +18,8 @@
     ![dp2](screenshots/dp2.png)
     ---
     ![dp3](screenshots/dp3.png)
+    ---
+    ![del](screenshots/del.png)
 1. ### keyboard
     ![kb](screenshots/kb.png)
 1. ### shortcut
