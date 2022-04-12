@@ -5,12 +5,28 @@
 ![Forks](https://img.shields.io/github/forks/tquangdo/nocode-macos-vscode-setting?color=f05340)
 [![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/nocode-macos-vscode-setting/issues/new)
 
-
 ## vscode
-- login acc: tquangdo(github)
-![vscode1](screenshots/vscode1.png)
-- extensions list:
-![vscode2](screenshots/vscode2.png)
+1. ### login & sync & pull push
+    - login acc: tquangdo(github)
+    ![vscode1](screenshots/vscode1.png)
+    - extensions list:
+    ![vscode2](screenshots/vscode2.png)
+    > ⚠️⚠️⚠️ IMPORTANT!!! ⚠️⚠️⚠️ if ERR "Error when syncing to github acc"
+    ```shell
+    git clone <one repo!!!>
+    git config --global user.name tquangdo
+    git config --global user.email trangia61@gmail.com
+    ```
+    - edit 1 place and `git push` => just sync OK only after push OK!
+1. ### "cascadia" font
+    - [refer](https://github.com/microsoft/cascadia-code/wiki/Installing-Cascadia-Code)
+    - `~/Library/Application Support/Code/User/settings.json` edit
+    ```json
+    "editor.fontLigatures": true,
+    ...
+    "editor.fontFamily": "cascadia code",
+    "terminal.integrated.fontFamily": "cascadia code"
+    ```
 
 ## macos
 1. ### drag pad
