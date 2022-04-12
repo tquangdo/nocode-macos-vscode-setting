@@ -27,6 +27,7 @@
     "editor.fontFamily": "cascadia code",
     "terminal.integrated.fontFamily": "cascadia code"
     ```
+    - "Fonts" path in macos: `/Users/do.tranquang/Library/Fonts`
 
 ## macos
 1. ### drag pad

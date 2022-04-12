@@ -1,3 +1,6 @@
+# ~~~~ NOTE!!! ~~~~
+# If use `brew install <xxx!!!>` then installed path="/opt/homebrew/bin"
+
 which python3    
 # /usr/local/bin/python3
 
@@ -55,6 +58,11 @@ which composer
 # /usr/local/bin/composer
 composer --version
 # Composer version 2.2.4 2022-01-08 12:30:42
+
+### yarn
+brew install yarn
+yarn -v
+# 1.22.18
 
 ### PHP
 brew install php
