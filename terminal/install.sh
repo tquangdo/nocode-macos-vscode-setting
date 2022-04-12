@@ -24,6 +24,19 @@ which terraform
 terraform -version    
 # Terraform v1.1.7 on darwin_amd64
 
+### java
+# 1/ install
+ls /Library/Java/JavaVirtualMachines/
+# temurin-17.jdk
+# 2/
+which java 
+# /usr/bin/java
+java -version
+=>
+openjdk version "17.0.2" 2022-01-18
+OpenJDK Runtime Environment Temurin-17.0.2+8 (build 17.0.2+8)
+OpenJDK 64-Bit Server VM Temurin-17.0.2+8 (build 17.0.2+8, mixed mode)
+
 ### maven
 # 1/ install
 brew install maven
