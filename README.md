@@ -38,6 +38,8 @@
     ![dp3](screenshots/dp3.png)
     ---
     ![del](screenshots/del.png)
+1. ### auto resize screenshot by Automator
+    ![autoresize_screshot](screenshots/autoresize_screshot.png)
 1. ### keyboard
     ![kb](screenshots/kb.png)
 1. ### shortcut
