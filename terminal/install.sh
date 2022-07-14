@@ -40,6 +40,21 @@ cat ~/.zshenv
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
 echo $JAVA_HOME
 # /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+# 3/ switch
+https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-macos
+# 3-1/
+/usr/libexec/java_home -V
+=>
+Matching Java Virtual Machines (2):
+    17.0.2 (arm64) "Eclipse Temurin" - "Eclipse Temurin 17" /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+    1.8.0_292 (x86_64) "AdoptOpenJDK" - "AdoptOpenJDK 8" /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+# 3-2/
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+java -version
+=>
+openjdk version "1.8.0_292"
+OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_292-b10)
 
 ### maven
 # 1/ install
